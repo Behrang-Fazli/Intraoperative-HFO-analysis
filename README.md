@@ -59,9 +59,9 @@ To run the demo, ensure the following resources are available:
 
 ### External Toolboxes:
 - **kSVD and OMP Functionality**:  
-  Download from [this repository](https://github.com/Xiaoyang233/KSVD/tree/master).
+  Download OMP.m and kSVD.m from [this repository](https://github.com/Xiaoyang233/KSVD/tree/master).
 - **Random Forest Toolbox**:  
-  Download from [this GitHub repo](https://github.com/erogol/Random_Forests).
+  Download the toolbox from [this GitHub repo](https://github.com/erogol/Random_Forests).
 
 ### Required Data:
 - Raw iEEG data (`Demo_rawiEEG.mat` or other from [DABI](https://dabi.loni.usc.edu/dsi/R01NS112497/AI413RR27VOG)).
@@ -94,7 +94,7 @@ The full pipeline, including:
 - Amplitude-based HFO detection (Dual Band HFO detector).
 - Pseudo-HFO elimination using the pre-learned dictionary and Random Forest classifier.
 - Distinguishing real vs. pseudo-HFOs from raw iEEG.
-- Requirement: Install the **Random Forest** **kSVD** toolboxes and raw iEEG data.
+- Requirement: Install the **Random Forest** and **kSVD** toolboxes and raw iEEG data.
   
 ---
 
